@@ -1,6 +1,6 @@
-### EX NO:02 
-### DATE:04.04.2022
-# <p align="center"> BINARY CLASSIFICATION</p>
+### EX NO:02
+### DATE: 04.04.2022
+# <p align="center">BINARY CLASSIFICATION <p/>
 ## AIM:
 
 To write a python program to perform binary classification.
@@ -23,14 +23,22 @@ For example, in medical diagnosis, a binary classifier for a specific disease co
 3. Assign the counter value using the Counter Function and with the help of a for loop iterate over the values.
 4. Plot the row values in the graph.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## PROGRAM:
-
+```
+Program to implement binary classification.
+Developed by: Praveen R K
+Register Number: 212220230037
+```
 ```python
-
-#Program to implement binary classification.
-#Developed by: Praveen R K
-#Register Number: 212220230037
-
 from numpy import where
 from collections import Counter
 from sklearn.datasets import make_blobs
@@ -46,10 +54,34 @@ for label,_ in counter.items():
     pyplot.scatter(X[row_ix,0],X[row_ix,1],label=str(label))
 pyplot.legend()
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## OUTPUT:
-![binary classification](https://user-images.githubusercontent.com/77089276/164721337-2b453dfb-ce68-49a4-be19-21b3fc483834.jpeg)
 
+<img width="320" alt="output" src="https://user-images.githubusercontent.com/75234991/163558187-55b65d72-da4d-49e3-9e39-0a0a741a5319.png">
 
 ## RESULT:
 
